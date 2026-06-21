@@ -108,7 +108,6 @@ let config = {
 				lon: "75.8577"
 			}
 		},
-
 		/* ===== PIR MOTION SENSOR ===== */
 		{
 			module: "MMM-PIR-Sensor",
@@ -120,7 +119,18 @@ let config = {
 			}
 		},
 
-		/* ===== TODAY'S FOCUS ===== */
+		/* ===== DAILY FOCUS TASKS ===== */
+		{
+			module: "MMM-DailyFocus",
+			position: "middle_center",
+			config: {
+				refreshInterval: 5 * 60 * 1000,
+				title: "TODAY'S FOCUS",
+				maxTasks: 7
+			}
+		},
+
+		/* ===== NEWS FEED ===== */
 		{
 			module: "newsfeed",
 			position: "bottom_bar",

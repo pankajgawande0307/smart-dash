@@ -1,0 +1,10 @@
+{
+	"date": "2026-06-21",
+	"tasks": [
+		{ "text": "Plan the day", "done": false },
+		{ "text": "Deep work block (2 hrs)", "done": false },
+		{ "text": "Review & respond to messages", "done": false },
+		{ "text": "Exercise", "done": false },
+		{ "text": "Evening review", "done": false }
+	]
+}

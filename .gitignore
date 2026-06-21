@@ -54,8 +54,9 @@ Temporary Items
 .directory
 .Trash-*
 
-# Ignore all modules
+# Ignore all modules (third-party installs), but track custom modules
 /modules/*
+!/modules/MMM-DailyFocus
 
 # Ignore users config file but keep the samples.
 config/*
